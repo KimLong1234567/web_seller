@@ -4,11 +4,12 @@
     if(isset($_GET['id'])){
         
         $sql = "SELECT * FROM product AS p, product_category AS pc WHERE p.prod_id = '$id' AND p.prod_cate_id = pc.prod_cate_id";
-        // echo $sql; exit;
+        // echo $sqla; exit;
         $rs = $con->query($sql);
         $r = mysqli_fetch_assoc($rs);
         $prod_id = $r['prod_id'];
     }
+
 ?>
 
 <!DOCTYPE html>
@@ -111,6 +112,31 @@ https://templatemo.com/tm-571-hexashop
     </section>
     <!-- ***** Product Area Ends ***** -->
 
+    
+    <!-- phan binh luan -->
+    <?php
+        $sqla = "(SELECT * FROM feed_back WHERE prod_id = '$id') ORDER BY feed_back_date DESC";
+        $rsa = $con->query($sqla);
+        // echo $sqla; exit;
+        while ($row = mysqli_fetch_assoc($rsa)){
+            
+    ?>
+    <div class="container">
+        <table>
+            <thead>
+                <th scope="col">Bình Luận</th>
+            </thead>
+            <thead>
+                <th scope="row"><?php echo $row['feed_back_name'] ?></th>
+                <td><?php echo $row['feed_back_date'] ?></td>
+            </thead>
+            <thead>
+                <td><?php echo $row['feed_back_mess'] ?></td>
+                <td><img src="./assets/images/<?php echo $row['feed_back_image'] ?>" alt="bugs" style="height: 160px; width: 160px;"></td>
+            </thead>
+        </table>
+    </div>
+    <?php }?>
 
     <?php
         if(isset($_COOKIE['userId'])){
@@ -122,8 +148,8 @@ https://templatemo.com/tm-571-hexashop
             $user_name = $ra['user_name'];
         }
     ?>
-     <div class="contact-us">
-            <div class="container">
+    <div class="contact-us">
+        <div class="container">
                 <form id="contact" action="./feedback.php ?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-lg-6">

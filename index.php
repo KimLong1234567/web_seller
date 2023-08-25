@@ -360,8 +360,8 @@ https://templatemo.com/tm-571-hexashop
                                 <div class="thumb">
                                     <div class="hover-content">
                                         <ul>
-                                            <li><a href="single-product.php ?id=<?php echo $r?>"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.php ?id=<?php echo $r?>"><i class="fa fa-shopping-cart"></i></a></li>
+                                            <li><a href="single-product.php ?&id=<?php echo $r?>"><i class="fa fa-eye"></i></a></li>
+                                            <li><a href="single-product.php ?&id=<?php echo $r?>"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
                                     <a href="single-product.php ?id=<?php echo $r?>">

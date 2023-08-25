@@ -23,13 +23,13 @@
           }
     ?>
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>   -->
     <!-- ***** Preloader End ***** -->
     
     
@@ -47,15 +47,15 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="./index.php" class="active">Trang Chủ</a></li>
-                            <li class="scroll-to-section"><a href="./thoi_trang.php">Thời Trang</a></li>
-                            <li class="scroll-to-section"><a href="./dau_thom.php">Dầu Thơm</a></li>
-                            <li class="scroll-to-section"><a href="./phu_kien.php">Phụ Kiện</a></li>
-                            <li class="scroll-to-section"><a href="./trang_suc.php">Trang Sức</a></li>
+                            <li class="scroll-to-section"><a href="./products.php">Products</a></li>
                             <li class="submenu">
                                 <a href="javascript:;">Pages</a>
                                 <ul>
+                                    <li><a href="./thoi_trang.php">Thời Trang</a></li>
+                                    <li><a href="./dau_thom.php">Dầu Thơm</a></li>
+                                    <li><a href="./phu_kien.php">Phụ Kiện</a></li>
+                                    <li><a href="./trang_suc.php">Trang Sức</a></li>
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="products.php">Products</a></li>
                                     <!-- <li><a href="single-product.html">Single Product</a></li> -->
                                     <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
@@ -80,6 +80,7 @@
                             <?php 
                                 if(isset($userId)){
                                     echo '<li class="scroll-to-section"><a>Hi, '.$rs['user_name'].'</a></li>
+                                    <li class="scroll-to-section"><a href="./cart.php"><img src = "./assets/images/download.png" alt="bug" style="height: 30px; width: 30px;"></a></li>
                                     <li class="scroll-to-section"><a href="logout.php">Log out</a></li>';
                                 }
                                 else{

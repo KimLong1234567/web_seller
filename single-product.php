@@ -78,33 +78,35 @@ https://templatemo.com/tm-571-hexashop
             </div>
             <div class="col-lg-4">
                 <div class="right-content">
-                    <h4><?php echo $r['prod_name']; ?></h4>
-                    <span class="price"><?php echo number_format($r['prod_price'], 0, ',', '.').' VND' ?></span>
-                    <ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                    </ul>
-                    <span><?php echo $r['prod_detail'] ?></span>
-                    <div class="quote">
-                        <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
-                    </div>
-                    <div class="quantity-content">
-                        <div class="left-content">
-                            <h6>Số sản phẩm</h6>
+                    <form action="./add_cart.php?&id=<?php echo $id?>" method="POST">
+                        <h4><?php echo $r['prod_name']; ?></h4>
+                        <span class="price"><?php echo number_format($r['prod_price'], 0, ',', '.').' VND' ?></span>
+                        <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                        <span><?php echo $r['prod_detail'] ?></span>
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
                         </div>
-                        <div class="right-content">
-                            <div class="quantity buttons_added">
-                                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="<?php echo $r['prod_quantity'] ?>" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" readonly="true"><input type="button" value="+" class="plus">
+                        <div class="quantity-content">
+                            <div class="left-content">
+                                <h6>Số sản phẩm</h6>
+                            </div>
+                            <div class="right-content">
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="<?php echo $r['prod_quantity'] ?>" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" readonly="true"><input type="button" value="+" class="plus">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="total">
-                        <!-- <h4>Total: </h4> -->
-                        <div class="main-border-button"><a href="#">Add To Cart</a></div>
-                    </div>
+                        <div class="total">
+                            <!-- <h4>Total: </h4> -->
+                            <div class="main-border-button"><button type="submit" name="add"><a>Add To Cart</a></button></div>
+                        </div>
+                    </form>
                 </div>
             </div>
             </div>

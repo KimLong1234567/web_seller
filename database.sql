@@ -84,6 +84,8 @@ ADD FOREIGN KEY (prod_id) REFERENCES product(prod_id);
 ALTER TABLE orders
 ADD FOREIGN KEY (user_id) REFERENCES users(user_id);
 
+ALTER TABLE orders ADD order_status bit DEFAULT 0;
+
 
 INSERT into admin (admin_count,admin_name, admin_password, admin_date_add) VALUES (,"admin","admin",CURRENT_TIMESTAMP()); 
 

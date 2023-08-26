@@ -23,7 +23,7 @@
         include './header.php';
         if(isset($_COOKIE['userId'])){
           $userId = $_COOKIE['userId'];
-          $sql = "SELECT * FROM orders AS o, product AS p WHERE o.order_status = 0 AND o.prod_id = p.prod_id AND o.user_id = '$userId'";
+          $sql = "SELECT * FROM orders AS o, product AS p WHERE o.order_status = 1 AND o.prod_id = p.prod_id AND o.user_id = '$userId'";
           // echo $sql; exit;
           $rs = $con ->query($sql);
           $total = 0 ;
@@ -33,14 +33,13 @@
 <div style="margin-top: 100px;">
   
 </div>  
-<button id="his_cart" type="button" class="btn btn-lg btn-primary mt-2" style="margin-left: 100px;">Lịch sử giỏ hàng</button>
 <center>
 <div class="container px-3 my-5 clearfix">
 
     <!-- Shopping cart table -->
     <div class="card">
         <div class="card-header">
-            <h2>Shopping Cart</h2>
+            <h2>History Cart</h2>
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -67,7 +66,7 @@
                           <img src="./assets/images/<?php echo $row['prod_image']?>" class="d-block ui-w-40 ui-bordered mr-4" alt="">
                         </a>
                         <div class="media-body">
-                          <a href="./single-product.php ?id=<?php echo $row['prod_id'] ?>" class="d-block text-dark"><?php echo $row['prod_name'].' | ' ; echo $row['order_date'] ?></a>
+                          <a href="./single-product.php ?id=<?php echo $row['prod_id'] ?>" class="d-block text-dark"><?php echo $row['prod_name'] .' | ' ; echo $row['order_date'] ?></a>
                           <small>
                             <!-- <span class="text-muted">Color:</span>
                             <span class="ui-product-color ui-product-color-sm align-text-bottom" style="background:#e81e2c;"></span> &nbsp;
@@ -107,7 +106,7 @@
         
             <div class="float-right">
               <button id="index" type="button" class="btn btn-lg btn-default md-btn-flat mt-2 mr-3">Back to shopping</button>
-              <button id="check_out" type="button" class="btn btn-lg btn-primary mt-2">Checkout</button>
+              <!-- <button id="check_out" type="button" class="btn btn-lg btn-primary mt-2">Checkout</button> -->
             </div>
         
           </div>
@@ -129,9 +128,6 @@
       window.location.href = "./check_out.php"; // Điều hướng đến trang index.php khi nút được nhấn
   });
 
-  document.getElementById("his_cart").addEventListener("click", function() {
-      window.location.href = "./cart_his.php"; // Điều hướng đến trang index.php khi nút được nhấn
-  });
   
 </script>
 </html>

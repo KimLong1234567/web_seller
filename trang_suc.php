@@ -47,7 +47,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-12">
                     <div class="inner-content">
                         <h2>TRANG SỨC</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <span>Các loại vòng vàng, nhẫn, và nhiều nữa</span>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Latest Products about fashion</h2>
+                        <h2>Các sản phẩm về trang sức</h2>
                         <span>Check out all of our products.</span>
                     </div>
                 </div>

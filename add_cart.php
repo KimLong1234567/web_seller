@@ -52,7 +52,7 @@
                                                 if($i == '' || $status == '1'){
                                                     $newItemPet = $sl - $quantity;
                                                     // echo $newItemPet; exit;
-                                                    $sql_insert= "INSERT INTO orders (order_id, order_date, order_total, order_numberOfItem, user_id, order_status, prod_id) 
+                                                    $sql_insert= "INSERT INTO orders (order_id, order_date, order_total, order_numberOfItem, user_id, prod_id) 
                                                     VALUES ('$random_char',CURRENT_TIMESTAMP(),'$total','$quantity','$userId','$id')";
                                                     $insert = $con->query($sql_insert);
 

@@ -47,7 +47,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-12">
                     <div class="inner-content">
                         <h2>Hãy ghé thăm gian hàng về dầu thơm của chúng tôi</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <span>Dến từ các hãng nổi tiếng ...</span>
                     </div>
                 </div>
             </div>

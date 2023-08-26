@@ -46,8 +46,8 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Check Our Fashion</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <h2>Những mẫu sản phẩm về thời trang nam</h2>
+                        <span>Bên dưới là tất cả sản phẩm về thời trang cho nam giới</span>
                     </div>
                 </div>
             </div>

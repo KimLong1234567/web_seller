@@ -204,17 +204,17 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-6">
                     <ul>
-                        <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
-                        <li>Phone:<br><span>010-020-0340</span></li>
-                        <li>Office Location:<br><span>North Miami Beach</span></li>
+                        <li>Địa chỉ:<br><span>Đường: 3/2, Xuân Khánh, Ninh Kiều, Tp.Cần Thơ</span></li>
+                        <li>Phone:<br><span>09364465658</span></li>
+                        <!-- <li>Office Location:<br><span>North Miami Beach</span></li> -->
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <ul>
-                        <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
-                        <li>Email:<br><span>info@company.com</span></li>
-                        <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
-                    </ul>
+                        <li>Giờ mở cửa:<br><span>07:30 AM - 9:30 PM Mỗi ngày</span></li>
+                        <li>Email:<br><span>huyb1910644@student.ctu.edu.vn</span></li>
+                        <li>Social Media:<br><span><a href="https://www.facebook.com/giabao.lenguyen.106902">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                    </ul>     
                 </div>
             </div>
         </div>

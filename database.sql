@@ -86,6 +86,11 @@ ADD FOREIGN KEY (user_id) REFERENCES users(user_id);
 
 ALTER TABLE orders ADD order_status bit DEFAULT 0;
 
+ALTER TABLE orders ADD order_name_card_customer varchar(255);
+
+ALTER TABLE orders ADD order_number_credit_card varchar(255);
+
+
 
 INSERT into admin (admin_count,admin_name, admin_password, admin_date_add) VALUES (,"admin","admin",CURRENT_TIMESTAMP()); 
 

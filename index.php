@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Welcom to HUY Store</title>
+    <title>Chào mừng đến với HUY Store</title>
 
 
     <!-- Additional CSS Files -->
@@ -47,8 +47,8 @@ https://templatemo.com/tm-571-hexashop
                     <div class="left-content">
                         <div class="thumb">
                             <div class="inner-content">
-                                <h4>Welcom to Huy Store</h4>
-                                <span>The most fashionable come from our store</span>
+                                <h4>Chào mừng đến với Huy Store</h4>
+                                <span>Chủ đạo của nền thời trang nam giới</span>
                                 <!-- <div class="main-border-button">
                                     <a href="#">Purchase Now!</a>
                                 </div> -->
@@ -65,12 +65,12 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="thumb">
                                         <div class="inner-content">
                                             <h4>Dầu Thơm</h4>
-                                            <span>Best Clothes For Women</span>
+                                            <span>Những sản phẩm đã qua tinh chế</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Dầu Thơm</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p></p>
                                                 <div class="main-border-button">
                                                     <a href="./dau_thom.php">Discover More</a>
                                                 </div>
@@ -85,12 +85,12 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="thumb">
                                         <div class="inner-content">
                                             <h4>Thời Trang</h4>
-                                            <span>Best Clothes For Men</span>
+                                            <span>Trang phục phù hợp với nam giới</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>THời Trang</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p></p>
                                                 <div class="main-border-button">
                                                     <a href="./thoi_trang.php">Discover More</a>
                                                 </div>
@@ -105,12 +105,12 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="thumb">
                                         <div class="inner-content">
                                             <h4 style="color: black;">Phụ Kiện</h4>
-                                            <span style="color: black;">Best Clothes For Kids</span>
+                                            <span style="color: black;">Kèm theo các phụ kiện</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Phụ Kiện</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p></p>
                                                 <div class="main-border-button">
                                                     <a href="./phu_kien.php">Discover More</a>
                                                 </div>
@@ -125,12 +125,12 @@ https://templatemo.com/tm-571-hexashop
                                     <div class="thumb">
                                         <div class="inner-content">
                                             <h4>Trang Sức</h4>
-                                            <span>Best Trend Accessories</span>
+                                            <span>Trang Sức các loại</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
                                                 <h4>Trang Sức</h4>
-                                                <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                                <p></p>
                                                 <div class="main-border-button">
                                                     <a href="./trang_suc.php">Discover More</a>
                                                 </div>
@@ -154,8 +154,8 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Men's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <h2>Mới nhất của nam giới</h2>
+                        <span>chúng tôi luôn có những sản phẩm mới đi đầu trào lưu</span>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-6">
                     <div class="section-heading">
                         <h2>Dầu thơm Lastest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <span>Dầu thơm mới nhất từ các hãng nổi tiếng</span>
                     </div>
                 </div>
             </div>
@@ -278,7 +278,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-6">
                     <div class="section-heading">
                         <h2>Phụ Kiện Lastest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <span>Các phụ kiện mới</span>
                     </div>
                 </div>
             </div>
@@ -339,7 +339,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-6">
                     <div class="section-heading">
                         <h2>Trang Sức Lastest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <span>Trang sức mới nhất</span>
                     </div>
                 </div>
             </div>
@@ -399,16 +399,16 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-6">
                     <ul>
-                        <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
-                        <li>Phone:<br><span>010-020-0340</span></li>
-                        <li>Office Location:<br><span>North Miami Beach</span></li>
+                        <li>Địa chỉ:<br><span>Đường: 3/2, Xuân Khánh, Ninh Kiều, Tp.Cần Thơ</span></li>
+                        <li>Phone:<br><span>09364465658</span></li>
+                        <!-- <li>Office Location:<br><span>North Miami Beach</span></li> -->
                     </ul>
                 </div>
                 <div class="col-lg-6">
                     <ul>
-                        <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
-                        <li>Email:<br><span>info@company.com</span></li>
-                        <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                        <li>Giờ mở cửa:<br><span>07:30 AM - 9:30 PM Mỗi ngày</span></li>
+                        <li>Email:<br><span>huyb1910644@student.ctu.edu.vn</span></li>
+                        <li>Social Media:<br><span><a href="https://www.facebook.com/giabao.lenguyen.106902">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
                     </ul>     
                 </div>
             </div>

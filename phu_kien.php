@@ -47,7 +47,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-12">
                     <div class="inner-content">
                         <h2>Đôi chút về phụ kiện</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <span>Phối được với nhiều trang phục khác nhau</span>
                     </div>
                 </div>
             </div>
